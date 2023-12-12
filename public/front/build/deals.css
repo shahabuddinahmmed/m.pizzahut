@@ -1,0 +1,299 @@
+.cat-logo img {
+    width: 152px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 1px;
+}
+
+#left-main-top {
+    width: 100%!important;
+}
+
+#main-upper-menu {
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+}
+
+.container {
+    padding: 0px 16px 0px 16px;
+}
+
+.deals-header{
+    border-bottom: 1px solid #efefef;
+    position: fixed;
+    overflow: hidden;
+    z-index: 22;
+}
+
+.deal-img-text{
+    padding: 3px 0 20px 15px;
+    background-color: #fff;
+}
+.title-description{
+    font-size: 14px;
+    margin-top: -10px;
+}
+.h5-title {
+    font-size: 1.8rem;
+    font-family: 'sharp-sans-semibold';
+    font-weight: 700;
+    color: #333333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.deals-category-title{
+    text-transform: uppercase;
+    color: #424242;
+    margin: 15px 0px 0px 30px;
+    padding: 0px 100px;
+    font-weight: 600;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.deals-item{
+    background: #ffffff;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    box-shadow: 0 0 3px 0 #c0c0c0;
+    border-radius: 5px;
+    cursor: pointer;
+    border-left: 4px solid transparent;
+}
+
+.deals-name-description {
+    font-size: 16px;
+    margin: 10px 0px 15px 0px;
+    color: #9c9ea1;
+}
+.sc-ion-label-md-h {
+    margin: 11px 8px 11px 0;
+}
+
+.polaroid {
+    height: auto !important;
+    max-width: 247px;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 3px;
+}
+
+.polaroid p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #5f5f5f;
+    line-height: 14px;
+    padding: 5px 0px 16px 15px;
+}
+.img-fluid{
+    border: 10px solid #fff;
+}
+
+.pizza_selection_col-12{
+    padding-top: 20px;
+    width: 100%;
+}
+
+.deals-pizza-title{
+    margin-top: -0.4rem;
+    margin-bottom: 1rem;
+}
+
+.sticky-header .header-section {
+    height: 50px;
+}
+
+.sr_back_button {
+    font-size: 30px;
+    margin-top: 2px !important;
+}
+
+.viewcart_button {
+    bottom: 0px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'sharp-sans-semibold'
+}
+
+.polaroid {
+    height: auto !important;
+    max-width: 180px;
+    cursor: pointer;
+    margin: 10px 5px 10px 19px;
+    background-color: #fff;
+    padding: 0px 0px 10px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polaroid p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #5f5f5f;
+    line-height: 14px;
+    padding: 15px 0px 10px 10px;
+}
+
+.col-md-6{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.deals_card {
+    background-color: #ffffff;
+    min-height: 260px;
+    margin: 5px 10px;
+    padding: 0px;
+    border-radius: 4px;
+}
+
+.deals-card-content {
+    padding: 0px 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.deal-item-name {
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #4d4d4d;
+    width: 100%;
+    font-family: 'sharp-sans-semibold';
+}
+
+.deal-item-desc {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #848484;
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 3px;
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 95%;
+}
+
+.deal-price {
+    font-size: 14px;
+    font-weight: 700;
+    /* border-top: 1px solid #cecece; */
+    color: #4d4d4d;
+    padding: 5px 0 0;
+    margin-left: 5px;
+    float: left;
+}
+
+.img-fluid {
+    border: 0px solid #fff;
+}
+.deals-top-img {
+    margin-top: 0px;
+    /* width: 100%; */
+    height: 210px;
+}
+
+.deals_price {
+    text-align: right;
+    font-weight: 700;
+    padding-right: 10px;
+    color: #0A8020;
+}
+.optional-text {
+    font-size: 1.4rem;
+    line-height: 1;
+    float: right;
+    position: relative;
+    top: -50px;
+}
+
+.optional-currency:before {
+    content: '৳ ';
+}
+
+.setoptionaltext {
+    display: none;
+}
+.setoptionaltextfree {
+    display: none;
+}
+@media screen and (max-width: 320px){
+    .deals-top-img {
+        margin-top: 0px;
+        /* width: 100%; */
+        height: 144px;
+    }
+    .scroll-content {
+        margin-top: 85px;
+        margin-bottom: 0px;
+    }
+    .polaroid {
+        height: auto !important;
+        max-width: 145px;
+        cursor: pointer;
+        margin: 10px 5px 10px 12px;
+        background-color: #fff;
+        padding: 0px 0px 10px;
+        border-radius: 0px 0px 5px 5px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+@media screen and (max-width: 359px) and (min-width: 321px){
+    .deals-top-img {
+        margin-top: 0px;
+        /* width: 100%; */
+        min-height: 135px;
+    }
+    .scroll-content {
+        margin-top: 85px;
+        margin-bottom: 0px;
+    }
+    .polaroid {
+        height: auto !important;
+        max-width: 170px;
+        cursor: pointer;
+        margin: 10px 5px 10px 5px;
+        background-color: #fff;
+        padding: 0px 0px 10px;
+        border-radius: 0px 0px 5px 5px;
+    }
+}
+@media screen and (max-width: 384px) and (min-width: 360px){
+    .deals-top-img {
+        margin-top: 0px;
+        /* width: 100%; */
+        min-height: 135px;
+    }
+    .scroll-content {
+        margin-top: 85px;
+        margin-bottom: 0px;
+    }
+    .polaroid {
+        height: auto !important;
+        max-width: 170px;
+        cursor: pointer;
+        margin: 10px 5px 10px 5px;
+        background-color: #fff;
+        padding: 0px 0px 10px;
+        border-radius: 0px 0px 5px 5px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 385px){
+    .scroll-content {
+        margin-bottom: 65px;
+    }
+}

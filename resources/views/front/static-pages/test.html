@@ -1,0 +1,28 @@
+<div class="ad_product_card">
+    <div class="ad_product_card_image">
+        @if($ingredient->image)
+        <img src="{{m_asset($ingredient->image)}}" alt="{{$ingredient->name}}" width="120px">
+        @else
+        <img src="{{asset('/')}}front/assets/imgs/noimage.png" width="120px">
+        @endif
+        {{--<img src="{{asset('/')}}front/assets/imgs/noimage.png" width="120px">--}}
+        <div class="ad_product_detail">
+            <span>{{$ingredient->name}}</span>
+            <span class="ad_price">৳ {{$ingredient->price}}</span>
+
+            <p style="font-size: 12px; overflow: inherit; padding-top:5px;">{{$ingredient->description}}...</p>
+
+            <div class="ad_product_card_footer">
+                <div class="ad_product_card_footer_text">
+                    <div class="label-auto left" style="width: 98px;">
+                        <p>Crust: Pan</p><br>
+                    </div>
+                    <div class="label-auto left">
+                        <button class="btn btn-success" style="" type="button">Add</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

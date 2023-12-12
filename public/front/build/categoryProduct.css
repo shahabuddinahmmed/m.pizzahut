@@ -1,0 +1,873 @@
+
+body {
+    /*background-image: url({{asset('/')}}front/assets/imgs/Backdrop.jpg);*/
+    background: url('../assets/imgs/Backdrop.jpg') center #fff;
+}
+
+.scroll-content {
+    margin-top: 44px;
+    margin-bottom: 85px;
+}
+
+#ellipsis {
+
+    display: inline-block;
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    float: left;
+    padding-left: 5px;
+    margin-top: 0px;
+}
+
+#expand_address {
+    float: left;
+    padding: 7px 0px 0px 10px;
+}
+
+.tablink.active {
+    background-color: rgb(225, 51, 64);
+    color: rgb(255, 255, 255);
+}
+
+.product_card .short-desc {
+    min-height: 30px;
+    line-height: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000;
+    white-space: normal;
+    margin: 2px 0px 0px 0px;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 25px;
+    line-height: 1.2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+}
+
+.product_card .pro-sub-title {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.product_card .pro-sub-title > span:first-child {
+    margin-right: 20px;
+}
+
+.product_card {
+    position: relative;
+    overflow: hidden;
+    width: 99%;
+}
+
+.product_card .add-to-cart {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    padding: 0 10px;
+    font-size: 14px;
+    background-color: #0a8020;
+}
+
+.product_card .pro_image {
+    float: left;
+    width: 34%;
+
+}
+
+.product_card .pro_details {
+    float: left;
+    padding: 10px;
+    width: 65%;
+
+}
+
+.product_card .pro_price {
+    text-align: right;
+    position: absolute;
+    right: 15px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.product_card .pro-detail-customize {
+    color: #030303;
+    font-weight: 700;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0px;
+    font-size: 13px;
+
+}
+
+.product_card_footer {
+    margin-top: 0px !important;
+}
+
+#cart_count {
+    position: absolute;
+    top: 8px;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 4px;
+    line-height: .9;
+    color: #e91313;
+    font-family: 'Lato-Regular';
+    right: 2px;
+}
+
+#cart_subtotal {
+    position: absolute;
+    top: 16px;
+    float: right;
+    right: -20px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 800;
+    transform: translateY(-50%);
+    width: 143px;
+    font-family: 'Lato-Regular';
+}
+
+.fa-plus {
+    color: green !important;
+    font-size: 23px;
+}
+
+.custom_piza_cross {
+
+}
+
+#total_price {
+    float: right;
+    font-size: 16px;
+}
+
+span#total_price::before {
+    content: "৳ ";
+    font-size: 18px;
+}
+
+.quantity {
+    display: block;
+    width: 100px;
+
+}
+
+/*  For Product Details Update Count in Customize page  */
+.quantity button {
+    background-color: white;
+}
+
+.quantity .fa {
+    color: #e0e0e0;
+    font-size: 20px;
+}
+
+.custom_piza_check .fa-times-circle {
+    color: #ea7575;
+    font-size: 20px;
+}
+
+.minus-circle {
+    float: left;
+}
+
+.item-qty {
+    float: left;
+    margin: 0 10px;
+}
+
+.plus-circle {
+    float: left;
+}
+
+.checkout_btn {
+    font-size: 16px;
+}
+
+/*******************New bottom menu****************/
+
+.dropup {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+/**
+* Code you need
+*/
+.scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    background-color: #303030;
+    position: relative;
+    z-index: 3;
+    color: #fff;
+}
+
+.nav-item.active {
+    color: #fff;
+    background-color: #e13340;
+    border-right: 1px solid #646464;
+    min-height: 44px;
+    text-align: center;
+    min-width: 110px;
+    border-right: 1px solid #646464;
+    display: -ms-flexbox !important;
+    justify-content: center;
+    padding: 10px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    border-top: 3px solid transparent;
+    /* display: inline-block; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* border-top: 3px solid #e13340; */
+}
+
+.submenu {
+    height: 0;
+    opacity: 0;
+}
+
+.submenu.active {
+    height: auto;
+    opacity: 1;
+    bottom: 93px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+/**
+ * Helper
+ */
+.bg-dark-blue {
+    background-color: #152637;
+}
+
+.bg-grey {
+    background-color: #303030;
+}
+
+.bg-dark-grey {
+    background-color: #555f6a;
+}
+
+.radius {
+    border-radius: 3px;
+}
+
+.radius-top {
+    border-radius: 3px 3px 0 0;
+}
+
+.radius-bottom {
+    border-radius: 0 0 3px 3px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.vam,
+.nav-item {
+    display: inline-block;
+    text-align: center;
+    min-width: 110px;
+    display: -ms-flexbox !important;
+    padding: 10px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+
+/**
+ * Example specific
+ */
+.example-two .logo {
+    width: 27.5%;
+}
+
+.example-two .nav {
+    width: 72.5%;
+}
+
+.example-three .logo {
+    border: none;
+}
+
+.example-three .nav-item.active,
+.example-three .submenu .nav-item {
+    color: #fff;
+    box-shadow: -1px 0 #555f6a, 1px 0 #555f6a;
+    background-color: #555f6a;
+}
+
+/**
+ * Visual style
+ */
+.logo {
+    text-align: center;
+    font-weight: 700;
+    color: #727c87;
+    border-right: 1px solid rgba(114, 124, 135, 0.2);
+    padding: 13px 32px 12px;
+}
+
+.nav-item {
+    cursor: pointer;
+    padding: 13px 16px 12px;
+}
+
+.nav-item:not(:last-child) {
+    border-right: 1px solid rgba(114, 124, 135, 0.2);
+}
+
+.bg-grey .nav-item {
+    color: #fff;
+}
+
+.submenu {
+    background-color: #303030;
+
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.pro_price:before {
+    content: '৳';
+}
+
+#display-mobile {
+    position: fixed;
+    bottom: 51px;
+    width: 100%;
+}
+
+.tab a {
+    color: #ffffff
+}
+
+/*Radio Button*/
+
+.radio-group {
+    background-color: #d0d0d0;
+    display: inline-block;
+    margin-top: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 220px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.radio-group input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+}
+
+.radio-group label {
+    color: #303030;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 5px 15px;
+    margin-bottom: 0px;
+    margin-right: -15px;
+}
+
+.radio-group input[type=radio]:checked + label {
+    color: #ffffff;
+    background: #675f6b;
+    margin-right: -15px;
+
+}
+
+.radio-group label + input[type=radio] + label {
+    border-left: solid 2px #ffffff;
+}
+
+.radio-group {
+    background-color: #d0d0d0;
+    display: inline-block;
+    margin-top: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 220px;
+}
+
+.toppings {
+    display: block;
+    height: 170px;
+    overflow: scroll;
+}
+
+.radio-group input[type=radio]:checked + label {
+    color: #ffffff;
+    background: #675f6b;
+    margin-right: -10px;
+}
+
+.cart-count{
+    background-color: #638126;
+    border-radius: 3px;
+    width: 23px;
+    height: auto;
+}
+
+.sr_back_button {
+    font-size: 20px;
+    margin-right: 10px;
+    float: left;
+    margin-top: 7px !important;
+}
+
+.qty_card {
+    margin: 10px;
+    min-height: 25px;
+    max-height: 30px;
+    overflow-y: scroll;
+}
+
+
+/************************ Ribbon***************************/
+
+.ribbon {
+    font-size: 20px !important;
+    width: auto;
+    position: relative;
+    background: #fffeff;
+    border-bottom: 1px solid #e13c3f;
+    color: #e13c3f;
+    text-align: center;
+    padding: 4px 0px 4px;
+    margin: 10px 100px 10px;
+    font-weight: 700;
+    font-family: 'sharp-sans-bold' !important;
+    text-transform: inherit !important;
+
+}
+.ribbon:before,
+.ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -8px;
+    border: 13px solid #ffffff;
+    z-index: -1;
+    box-shadow: 0 3px 0px -1px #e13340;
+}
+.ribbon:before {
+    left: -86px;
+    border-right-width: 83px;
+    border-left-color: transparent;
+}
+.ribbon:after {
+    right: -86px;
+    border-left-width: 83px;
+    border-right-color: transparent;
+}
+.ribbon .ribbon-content:before,
+.ribbon .ribbon-content:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: #e13c3f transparent transparent transparent;
+    bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+    left: 0px;
+    border-width: .4em 0 0 .4em;
+    top: 32px;
+}
+.ribbon .ribbon-content:after {
+    right: 0px;
+    border-width: .4em .4em 0 0;
+    top: 32px;
+}
+
+/************************ Ribbon***************************/
+
+
+/*****************************Pan SFO Button****************/
+
+.pan_sfo_text{
+    font-family: sharp-sans-bold;
+    margin: -4px 0px 0px 5px;
+    font-size: 18px;
+}
+
+.pan_sfo_text a{
+    color: #737373;
+}
+
+.pan_sfo_text input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+}
+
+.pan_sfo_text label {
+    color: #9e9fa0;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 8px 0px 0px 0px;
+    margin-right: 0px;
+}
+
+.pan_sfo_text input[type=radio]:checked + label {
+    color: #0c0c0c;
+    margin-right: 0px;
+
+}
+
+.pan_sfo_text label + input[type=radio] + label {
+    border-left: solid 2px #ffffff;
+}
+
+/*****************************Pan SFO Button****************/
+/*****************************Customization****************/
+
+.cust_modal_header{
+    padding: 0px;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.cust_modal-dialog {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.cust_title {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin: 0px !important;
+    background: linear-gradient(to top, rgba(255,0,0,0), rgb(11, 10, 10));
+}
+
+.sr_back_button {
+    font-size: 20px;
+    margin: 0px 10px;
+    float: left;
+    margin-top: 7px !important;
+    position: absolute;
+    color: #ffffff;
+}
+
+.custom-top-img{
+    margin-top: 0px;
+    width: 100%;
+    height: 210px;
+}
+
+.fa-times-circle:before {
+    content: "\f057";
+    font-size: 24px;
+}
+
+.pizza-desc {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#full_name{
+    margin: 0px 0px 10px 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*****************************Pan SFO Button****************/
+
+
+
+.deli_loc_row{
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+.btn-sm {
+    padding: 0px 3px;
+    margin-top: 0px;
+}
+
+.category-product-footer{
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    z-index: 1030;
+    background: #fff;
+    height: 0;
+    color: #fff;
+}
+
+.tawhid_shap {
+    width: 25%;
+    height: 45%;
+    margin: -2px -11px;
+}
+
+
+
+
+
+@media screen and (max-width: 320px) {
+
+    .tablink {
+        background-color: #303030;
+        min-height: 30px;
+        text-align: center;
+        min-width: 80px;
+        border-right: 1px solid #646464;
+        display: -ms-flexbox !important;
+        justify-content: center;
+        padding: 10px !important;
+        color: #fff;
+        font-size: 11px !important;
+        font-weight: 600 !important;
+        border-top: 3px solid transparent;
+        display: inline-block;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .nav {
+        margin-top: -41px;
+    }
+
+    .scroll-content {
+        margin-bottom: 94px;
+    }
+
+    .radio-group label {
+        font-size: 11px;
+    }
+
+    .hr-border {
+        margin: 10px 0px;
+    }
+
+    #ellipsis {
+        padding-top: 1px;
+    }
+
+    #cart_subtotal {
+        right: -40px;
+        font-size: 12px;
+        top: 16px;
+    }
+
+    .logo_bg {
+
+        left: 120px;
+    }
+
+    .radio-group input[type=radio] {
+        position: absolute;
+        visibility: hidden;
+        display: none;
+    }
+
+    .radio-group label {
+        color: #303030;
+        display: inline-block;
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 12px;
+        padding: 5px 10px;
+        margin-bottom: 0px;
+        margin-right: -15px;
+    }
+
+    .radio-group input[type=radio]:checked + label {
+        color: #ffffff;
+        background: #675f6b;
+        margin-right: -15px;
+
+    }
+
+    .radio-group label + input[type=radio] + label {
+        border-left: solid 2px #ffffff;
+    }
+
+    .radio-group {
+        width: 196px;
+    }
+
+    #ellipsis {
+        display: inline-block;
+        width: 40px;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+        float: left;
+        padding-left: 5px;
+        margin-top: 0px;
+    }
+
+    .btn-sm {
+        padding: 0px 3px;
+        margin: 0px 0px;
+    }
+    .product_card .add-to-cart {
+        position: absolute;
+        bottom: 5px;
+        right: 2px;
+        padding: 0 5px;
+        font-size: 14px;
+        background-color: #0a8020;
+    }
+    .pan_sfo_text label {
+        font-size: 13px;
+
+    }
+
+    .tawhid_shap {
+        width: 25%;
+        height: 40%;
+        margin: 0px -7px;
+    }
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+
+    .nav {
+        margin-top: -41px;
+    }
+
+    .scroll-content {
+        margin-bottom: 120px;
+    }
+
+    .hr-border {
+        margin: 10px 0px 0px 0px;
+        padding: 5px 10px 0px 10px;
+    }
+
+    #cart_subtotal {
+        right: -55px;
+        font-size: 13px;
+        top: 16px;
+    }
+
+    .radio-group {
+        margin-top: 0px;
+        width: 210px;
+    }
+
+    .product_card .add-to-cart {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        padding: 0 5px;
+        font-size: 12px;
+        background-color: #0a8020;
+    }
+
+    .product_card .pro-detail-customize {
+        font-size: 12px;
+
+    }
+
+    #ellipsis {
+        display: inline-block;
+        width: 80px;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+        float: left;
+        padding-left: 5px;
+        margin-top: 0px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 376px) and (max-width: 384px) {
+
+
+
+}
+
+@media screen and (min-width: 385px) and (max-width: 480px) {
+    .scroll-content {
+        margin-bottom: 120px;
+    }
+
+    .radio-group label {
+        color: #303030;
+        display: inline-block;
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 12px;
+        padding: 5px 21px;
+        margin-bottom: 0px;
+        margin-right: -15px;
+    }
+
+    .radio-group input[type=radio]:checked + label {
+        color: #ffffff;
+        background: #675f6b;
+        margin-right: -15px;
+
+    }
+
+    .radio-group label + input[type=radio] + label {
+        border-left: solid 2px #ffffff;
+    }
+
+    .radio-group {
+        width: 245px;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 414px) {
+
+}
+
+@media screen and (min-width: 415px) and (max-width: 568px) {
+
+}

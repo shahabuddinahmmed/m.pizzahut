@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="9430 9504 61 61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9ebee;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #4d4d4d;
+        stroke-linecap: round;
+        stroke-miterlimit: 5;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="minus_icon_-_1" data-name="minus icon - 1" transform="translate(409 6811)">
+    <g id="Group_5608" data-name="Group 5608" transform="translate(8381 1719)">
+      <circle id="Ellipse_403" data-name="Ellipse 403" class="cls-1" cx="30.5" cy="30.5" r="30.5" transform="translate(640 974)"/>
+      <line id="Line_700" data-name="Line 700" class="cls-2" x2="21" transform="translate(660 1004.5)"/>
+    </g>
+  </g>
+</svg>

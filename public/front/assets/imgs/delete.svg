@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10317 9491 86.267 86.266">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9ebee;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #4d4d4d;
+        stroke-linecap: round;
+        stroke-miterlimit: 5;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="close_icon_-_2" data-name="close icon - 2" transform="translate(9575 8554)">
+    <circle id="Ellipse_404" data-name="Ellipse 404" class="cls-1" cx="30.5" cy="30.5" r="30.5" transform="translate(742 980.133) rotate(-45)"/>
+    <line id="Line_701" data-name="Line 701" class="cls-2" y1="14.8" x2="14.8" transform="translate(777.733 972.733)"/>
+    <line id="Line_702" data-name="Line 702" class="cls-2" x2="14.8" y2="14.8" transform="translate(777.733 972.733)"/>
+  </g>
+</svg>

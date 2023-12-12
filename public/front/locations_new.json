@@ -1,0 +1,724 @@
+{
+    "greenroadCoords": [
+        {
+            "lat": 23.7639,
+            "lng": 90.40015
+        },
+        {
+            "lat": 23.752783419633758,
+            "lng": 90.39821848541249
+        },
+        {
+            "lat": 23.750577016507297,
+            "lng":  90.39239665225064
+        },
+        {
+            "lat": 23.75216558404852,
+            "lng":90.37848035136007
+        },
+        {
+            "lat": 23.7643,
+            "lng": 90.37106
+        }
+    ],
+    "uttara6Coords": [
+        {
+            "lat": 23.88021,
+            "lng": 90.41073
+        },
+        {
+            "lat": 23.87067,
+            "lng": 90.42282
+        },
+        {
+            "lat": 23.8598,
+            "lng": 90.41771
+        },
+        {
+            "lat": 23.86064,
+            "lng": 90.4002
+        },
+        {
+            "lat": 23.88006,
+            "lng": 90.40144
+        }
+    ],
+    "shewraparaCoords": [
+        {
+            "lat": 23.80711,
+            "lng": 90.3686
+        },
+        {
+            "lat": 23.79821,
+            "lng": 90.38846
+        },
+        {
+            "lat": 23.78814,
+            "lng": 90.38827
+        },
+        {
+            "lat": 23.77072,
+            "lng": 90.38229
+        },
+        {
+            "lat": 23.76873,
+            "lng": 90.373
+        },
+        {
+            "lat": 23.79985,
+            "lng": 90.36356
+        }
+    ],
+    "banasreeCoords": [
+        {
+            "lat": 23.77688,
+            "lng": 90.42538
+        },
+        {
+            "lat": 23.77529,
+            "lng": 90.43085
+        },
+        {
+            "lat": 23.76734,
+            "lng": 90.4295
+        },
+        {
+            "lat": 23.76821,
+            "lng": 90.44554
+        },
+        {
+            "lat": 23.74971,
+            "lng": 90.44105
+        },
+        {
+            "lat": 23.75911,
+            "lng": 90.41829
+        },
+        {
+            "lat": 23.76523,
+            "lng": 90.41231
+        },
+        {
+            "lat": 23.7703,
+            "lng": 90.42447
+        }
+    ],
+    "adaborCoords": [
+        {
+            "lat": 23.76167,
+            "lng": 90.37197
+        },
+        {
+            "lat": 23.75616,
+            "lng": 90.35673
+        },
+        {
+            "lat": 23.7694,
+            "lng": 90.34733
+        },
+        {
+            "lat": 23.77804,
+            "lng": 90.35144
+        },
+        {
+            "lat": 23.77829,
+            "lng": 90.36709
+        }
+    ],
+    "bailyCoords": [
+        {
+            "lat": 23.74928,
+            "lng": 90.4188
+        },
+        {
+            "lat": 23.74459,
+            "lng": 90.42635
+        },
+        {
+            "lat": 23.73239,
+            "lng": 90.4253
+        },
+        {
+            "lat": 23.73257,
+            "lng": 90.39534
+        },
+        {
+            "lat": 23.74141,
+            "lng": 90.39604
+        },
+        {
+            "lat": 23.75009,
+            "lng": 90.39332
+        },
+        {
+            "lat": 23.75156,
+            "lng": 90.40136
+        },
+        {
+            "lat": 23.74874,
+            "lng": 90.40368
+        }
+    ],
+    "chittagongCoords": [
+        {
+            "lat": 22.36247,
+            "lng": 91.82304
+        },
+        {
+            "lat": 22.35648,
+            "lng": 91.8276
+        },
+        {
+            "lat": 22.35103,
+            "lng": 91.82214
+        },
+        {
+            "lat": 22.35042,
+            "lng": 91.81793
+        },
+        {
+            "lat": 22.36204,
+            "lng": 91.81034
+        },
+        {
+            "lat": 22.36454,
+            "lng": 91.81039
+        },
+        {
+            "lat": 22.36448,
+            "lng": 91.81504
+        }
+    ],
+
+    "gulshanCoords": [
+        {
+            "lat": 23.7703,
+            "lng": 90.42447
+        },
+        {
+            "lat": 23.78058,
+            "lng": 90.42555
+        },
+        {
+            "lat": 23.78094,
+            "lng": 90.4118
+        },
+        {
+            "lat": 23.77741,
+            "lng": 90.39822
+        },
+        {
+            "lat": 23.77133,
+            "lng": 90.40126
+        }
+    ],
+    "gulshan2Coords": [
+        {
+            "lat": 23.79884,
+            "lng": 90.42326
+        },
+        {
+            "lat": 23.7808,
+            "lng": 90.42559
+        },
+        {
+            "lat": 23.78046,
+            "lng": 90.41179
+        },
+        {
+            "lat": 23.79439,
+            "lng": 90.40999
+        }
+    ],
+    "gulshan3Coords": [
+        {
+            "lat": 23.79884,
+            "lng": 90.42326
+        },
+        {
+            "lat": 23.79439,
+            "lng": 90.40999
+        },
+        {
+            "lat": 23.80454,
+            "lng": 90.40675
+        },
+        {
+            "lat": 23.814,
+            "lng": 90.40845
+        },
+        {
+            "lat": 23.81864,
+            "lng": 90.4149
+        },
+        {
+            "lat": 23.81152,
+            "lng": 90.42124
+        }
+    ],
+    "dhanmondiCoords": [
+        {
+            "lat": 23.76166,
+            "lng": 90.37203
+        },
+        {
+            "lat": 23.75168,
+            "lng": 90.37784
+        },
+        {
+            "lat": 23.73833,
+            "lng": 90.37616
+        },
+        {
+            "lat": 23.73704,
+            "lng": 90.36902
+        },
+        {
+            "lat": 23.74715,
+            "lng": 90.36249
+        },
+        {
+            "lat": 23.75541,
+            "lng": 90.35725
+        }
+    ],
+    "dhanmondi2Coords": [
+        {
+            "lat": 23.75167,
+            "lng": 90.37783
+        },
+        {
+            "lat": 23.74985,
+            "lng": 90.39297
+        },
+        {
+            "lat": 23.73866,
+            "lng": 90.39081
+        },
+        {
+            "lat": 23.73426,
+            "lng": 90.38452
+        },
+        {
+            "lat": 23.73833,
+            "lng": 90.37616
+        }
+    ],
+    "uttaraCoords": [
+        {
+            "lat": 23.87994,
+            "lng": 90.39212
+        },
+        {
+            "lat": 23.88006,
+            "lng": 90.40144
+        },
+        {
+            "lat": 23.86957,
+            "lng": 90.40025
+        },
+        {
+            "lat": 23.86929,
+            "lng": 90.37708
+        },
+        {
+            "lat": 23.87931,
+            "lng": 90.373
+        },
+        {
+            "lat": 23.87885,
+            "lng": 90.38214
+        },
+        {
+            "lat": 23.88762,
+            "lng": 90.38672
+        },
+        {
+            "lat": 23.88782,
+            "lng": 90.38959
+        }
+    ],
+    "uttara2Coords": [
+
+        {
+            "lat": 23.86064,
+            "lng": 90.4002
+        },
+        {
+            "lat": 23.85062,
+            "lng": 90.40826
+        },
+        {
+            "lat": 23.84654,
+            "lng": 90.39273
+        },
+        {
+            "lat": 23.86181,
+            "lng": 90.38268
+        },
+        {
+            "lat": 23.86137,
+            "lng": 90.37658
+        },
+        {
+            "lat": 23.86929,
+            "lng": 90.37705
+        },
+        {
+            "lat": 23.86957,
+            "lng": 90.40025
+        }
+    ],
+    "mirpurCoords": [
+        {
+            "lat": 23.8398,
+            "lng": 90.37657
+        },
+        {
+            "lat": 23.79822,
+            "lng": 90.38846
+        },
+        {
+            "lat": 23.82884,
+            "lng": 90.34379
+        },
+        {
+            "lat": 23.8403,
+            "lng": 90.35098
+        }
+    ],
+    "mirpur2Coords": [
+        {
+            "lat": 23.8071,
+            "lng": 90.3686
+        },
+        {
+            "lat": 23.79992,
+            "lng": 90.36354
+        },
+        {
+            "lat": 23.78718,
+            "lng": 90.36742
+        },
+        {
+            "lat": 23.78161,
+            "lng": 90.35175
+        },
+        {
+            "lat": 23.78711,
+            "lng": 90.34261
+        },
+        {
+            "lat": 23.81962,
+            "lng": 90.35438
+        }
+    ],
+    "bhataraCoords": [
+        {
+            "lat": 23.79965,
+            "lng": 90.44367
+        },
+        {
+            "lat": 23.79779,
+            "lng": 90.42343
+        },
+        {
+            "lat": 23.81152,
+            "lng": 90.42124
+        },
+        {
+            "lat": 23.81864,
+            "lng": 90.4149
+        },
+        {
+            "lat": 23.82491,
+            "lng": 90.42195
+        },
+        {
+            "lat": 23.8317,
+            "lng": 90.45394
+        },
+        {
+            "lat": 23.80605,
+            "lng": 90.45704
+        }
+    ],
+    "bananiCoords": [
+        {
+            "lat": 23.79889,
+            "lng": 90.39373
+        },
+        {
+            "lat": 23.8004,
+            "lng": 90.40794
+        },
+        {
+            "lat": 23.79345,
+            "lng": 90.40984
+        },
+        {
+            "lat": 23.78044,
+            "lng": 90.41171
+        },
+        {
+            "lat": 23.77609,
+            "lng": 90.39326
+        }
+    ],
+    "wariCoords": [
+        {
+            "lat": 23.73036,
+            "lng": 90.41516
+        },
+        {
+            "lat": 23.72659,
+            "lng": 90.42147
+        },
+        {
+            "lat": 23.72148,
+            "lng": 90.42112
+        },
+        {
+            "lat": 23.72207,
+            "lng": 90.42711
+        },
+        {
+            "lat": 23.71888,
+            "lng": 90.42709
+        },
+        {
+            "lat": 23.71464,
+            "lng": 90.42518
+        },
+        {
+            "lat": 23.70799,
+            "lng": 90.41112
+        },
+        {
+            "lat": 23.71449,
+            "lng": 90.40863
+        },
+        {
+            "lat": 23.72294,
+            "lng": 90.41061
+        }
+    ],
+    "savarCoords": [
+        {
+            "lat": 23.8401,
+            "lng": 90.26599
+        },
+        {
+            "lat": 23.82126,
+            "lng": 90.2576
+        },
+        {
+            "lat": 23.8271,
+            "lng": 90.25024
+        },
+        {
+            "lat": 23.87259,
+            "lng": 90.25653
+        },
+        {
+            "lat": 23.88693,
+            "lng": 90.26598
+        },
+        {
+            "lat": 23.88969,
+            "lng": 90.27204
+        },
+        {
+            "lat": 23.87989,
+            "lng": 90.2747
+        }
+    ],
+    "coxCoords": [
+        {
+            "lat": 21.44322,
+            "lng": 91.97682
+        },
+        {
+            "lat": 21.42335,
+            "lng": 91.98639
+        },
+        {
+            "lat": 21.42552,
+            "lng": 91.99224
+        },
+        {
+            "lat": 21.42219,
+            "lng": 91.99394
+        },
+        {
+            "lat": 21.41652,
+            "lng": 91.986
+        },
+        {
+            "lat": 21.4035,
+            "lng": 91.99432
+        },
+        {
+            "lat": 21.40278,
+            "lng": 91.992
+        },
+        {
+            "lat": 21.44085,
+            "lng": 91.96407
+        }
+    ],
+    "basaboCoords": [
+        {
+            "lat": 23.75645,
+            "lng": 90.4248
+        },
+        {
+            "lat": 23.745,
+            "lng": 90.45271
+        },
+        {
+            "lat": 23.7292,
+            "lng": 90.45218
+        },
+        {
+            "lat": 23.72543,
+            "lng": 90.42946
+        },
+        {
+            "lat": 23.74441,
+            "lng": 90.42664
+        },
+        {
+            "lat": 23.74926,
+            "lng": 90.4189
+        }
+    ],
+    "brances": [
+
+        {
+            "tag":"gulshanTriangle",
+            "name":"Pizza Hut Delivery Gulshan",
+            "location":"Road # 140, SE(F)- 1, Bir Uttam Mir Shawkat Ali Sarak, (South Avenue), Gulshan - 1, Dhaka- 1212."
+        },
+        {
+            "tag":"gulshan2Triangle",
+            "name":"Pizza Hut Delivery RM Center",
+            "location":"House- 101( 2nd Floor), Gulshan Avenue, Gulshan - 2, Dhaka-1212"
+        },
+        {
+            "tag":"dhanmondiTriangle",
+            "name":"Pizza Hut Dhanmondi",
+            "location":"Plot # 754, Satmasjid Road, Dhanmondi, Dhaka- 1205"
+        },
+        {
+            "tag":"dhanmondi2Triangle",
+            "name":"Pizza Hut Delivery Dhanmondi2",
+            "location":"Dr. Refat Ullahs Happy Arcade, House-03, Road-03, Dhanmondi, Dhaka"
+        },
+        {
+            "tag":"bailyTriangle",
+            "name":"Pizza Hut Baily Road",
+            "location":"3, New Baily Road, 10, Natok Sarani, Gold Hunt Shopping Complex, Dhaka."
+        },
+        {
+            "tag":"uttaraTriangle",
+            "name":"Pizza Hut Delivery Uttara",
+            "location":"Plot # 13, Sec # 13, Sonargaon, Janapath, Uttara, Dhaka-1230"
+        },
+        {
+            "tag":"uttara2Triangle",
+            "name":"Pizza Hut Delivery Uttara2",
+            "location":"H#06, Road#02, Ahmed Plaza (Gr. Flr), Sector-03, Uttara, Dhaka-1230"
+        },
+        {
+            "tag":"bhataraTriangle",
+            "name":"Pizza Hut Delivery Bhatara",
+            "location":"Adept N. R. Complex, Plot- Ka 5/2, Bashundhara Link Road, Jagannathpur, Badda, Dhaka-1229"
+        },
+        {
+            "tag":"bananiTriangle",
+            "name":"Pizza Hut Delivery Banani",
+            "location":"Plot- 50, Road- 11, Block- C, Banani Police Station, Banani, Dhaka-1213."
+        },
+        {
+            "tag":"mirpurTriangle",
+            "name":"Pizza Hut Delivery Mirpur",
+            "location":"Spring Rahmat E Tuba, Plot-132, Road-2, Block- A, Section- 12,  Mirpur, Dhaka"
+        },
+        {
+            "tag":"mirpur2Triangle",
+            "name":"Pizza Hut Delivery Sony",
+            "location":"Sony Cinema Bhaban, Ist Floor, Plot-1, Block-D,Sector-02, Mirpur, Dhaka-1216"
+        },
+        {
+            "tag":"wariTriangle",
+            "name":"Pizza Hut Delivery Wari",
+            "location":"A.K. Famous Tower, 41 Rankin Street, Wari, Dhaka"
+        },
+        {
+            "tag":"savarTriangle",
+            "name":"Pizza Hut Delivery Savar",
+            "location":"M.K Tower, 1st Floor (right side), Holding-B-16/1 Jaleshwar, Savar Union"
+        },
+        {
+            "tag":"coxTriangle",
+            "name":"Pizza Hut Delivery Cox Bazar",
+            "location":"Plot No 08, Block A, Near At Long Beach Out Side, Kalatoli Road, New Beach Rd, Coxs Bazar-4700"
+        },
+        {
+            "tag":"chittagongTriangle",
+            "name":"Pizza Hut Chittagong",
+            "location":"Plot No 08, Block A, Near At Long Beach Out Side, Kalatoli Road, New Beach Rd, Coxs Bazar-4700"
+        },
+        {
+            "tag":"sylhetTriangle",
+            "name":"Pizza Hut Sylhet",
+            "location":"Plot No 08, Block A, Near At Long Beach Out Side, Kalatoli Road, New Beach Rd, Coxs Bazar-4700"
+        },
+        {
+            "tag":"jamunaTriangle",
+            "name":"Pizza Hut Jamuna Future Park",
+            "location":"Plot No 08, Block A, Near At Long Beach Out Side, Kalatoli Road, New Beach Rd, Coxs Bazar-4700"
+        },
+        {
+            "tag":"adaborTriangle",
+            "name":"Pizza Hut FCD Adabor",
+            "location":"Plot-1107/A, 1105/B (Shiuly), Baitul Aman Housing Society, Adabor, Dhaka-1207"
+        },
+        {
+            "tag":"banasreeTriangle",
+            "name":"Pizza Hut FCD Banasree",
+            "location":"Amena Dream Park, A7, A8, Main Road, Banasree, Rampura, Dhaka 1219"
+        },
+        {
+            "tag":"shewraparaTriangle",
+            "name":"Pizza Hut FCD Shewrapara",
+            "location":"Mehdi Mollik Plaza, 218/9, West Kafrul, Mirpur, Dhaka - 1206"
+        },
+        {
+            "tag":"gulshan3Triangle",
+            "name":"Pizza Hut Delivery Gulshan 2",
+            "location":"Meher Nibas, House # 12/B, Road # 55, Gulshan - 2, Dhaka - 1212"
+        },
+        {
+            "tag":"greenroadTriangle",
+            "name":"Pizza Hut Delivery Green Road",
+            "location":"Akankha Jahangir Heights  147/A/2, Green Road. Dhaka"
+        },
+        {
+            "tag":"uttara6Triangle",
+            "name":"Pizza Hut Delivery Uttara 6",
+            "location":"Plot: 1, Road: 13/C,  Shah Jalal Avenue,  Sector: 6  Uttara, Dhaka-1230"
+        },
+        {
+            "tag":"basaboTriangle",
+            "name":"Pizza Hut Delivery Basabo",
+            "location":"Dhaka Complex, 1/GA, Central Bashabo"
+        }
+    ]
+}
+
+
+
+
+
